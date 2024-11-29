@@ -1,0 +1,124 @@
+[h1]Spicetrauma:Enriched Ammo Deconstruction[/h1]
+is a simple mod that allows all turret ammunition boxes (above a certain quality) to be deconstructed for part of the cost of their actual munitions.
+
+[hr][/hr]
+[h2]What exactly does this mod do?[/h2]
+A handful of special ammo boxes, such as Physicorium, return their respective special materials when deconstructed at high condition. Most other ammo boxes, however, don't. This is, as I interpret it, for a pretty good reason - any other material that deconstruction could return is part of a recipe with alternatives, potentially allowing for material conversion shenanigans. However, the fact that not all boxes return anything other than aluminum still irks me, so I decided to take a stab at it.
+
+It also reduces the condition thresholds for returning said ammo materials, allowing for a little more leeway when it comes to deconstructing.
+
+This mod only affects ammo [i]boxes[/i]; Railgun Shell, Canister Railgun Shell, Physicorium Railgun Shell, Nuclear Railgun Shell, Gravity Railgun Shell, and Railgun Harpoon are completely unchanged.
+
+This is not a straightforward improvement. Creating recipes that are at least passably balanced and mitigate cheesing potential is hard and imperfect. You may not agree with my choices. That's ok!
+
+[h3]The changes[/h3]
+[b]Coilgun Ammunition Box[/b]
+Aluminum x1, [u]Iron x2[/u]
+[*]Some recipes return ingredients of ingredients - and for that, iron was the perfect candidate, as it's very common and only makes up a third of the ammo's recipe
+[b]Piercing Coilgun Ammunition Box[/b]
+Aluminum x1, [u]Steel Bar x1[/u]
+[*]Also makes up only a third of the recipe, and is the most common of the possible materials by a large margin
+[b]Coilgun Harpoon Box[/b]
+Aluminum x1, [u]Organic Fiber x1[/u]
+[*]More common than steel; straightforward enough.
+
+[b]Chaingun Ammunition Box[/b]
+Aluminum x1, [u]Copper x2[/u]
+[*]Like the normal coilgun ammo, except that chaingun ammo is more expensive and deserves the next most common material
+[b]Shredder Chaingun Ammunition Box[/b]
+Aluminum x1, [u]Steel Bar x2[/u]
+[*]Like the piercing coilgun ammo, is the most common of the possible materials
+[b]Physicorium Chaingun Ammunition Box[/b]
+Aluminum x1, Physicorium Bar x1, [u]Steel Bar x1[/u]
+[*]Mostly for a little extra padding, as the less expensive coilgun equivalent normally returns the same amount which doesn't make much sense
+
+[b]Spreader Flak Shells Box[/b]
+Aluminum x1, [u]Copper x1[/u], [u]Phosphorous x1[/u]
+[*]To avoid redundancy with the basic coilgun and chaingun ammos; phosphorous is also the more common of the two explosive powders
+[b]Focused Flak Shells Box[/b]
+Aluminum x1, [u]Steel Bar x1[/u], [u]Phosphorous x1[/u]
+[*]Slightly less common materials from more expensive ammo
+[b]Explosive Flak Shells Box[/b]
+Aluminum x1, [strike]C-4 Block x1[/strike] [u]Sodium x2[/u]
+[*]I don't like removing things, but I felt this would make sense considering that the coilgun equivalent returns sodium instead of C-4
+[b]Physicorium Flak Shells Box[/b]
+Aluminum x1, Physicorium Bar x1, [u]Magnesium x1[/u]
+[*]Like the chaingun equivalent, all that's needed is a little extra padding
+
+[b]Unchanged Recipes[/b]
+[list]
+[*]Explosive Coilgun Ammunition Box
+[*]Depleted Fuel Coilgun Ammunition Box
+[*]Physicorium Ammunition Box
+[*]Pulse Laser Fuel Box
+[*]Pulse Tri-Laser Fuel Box
+[*]Gravity Flak Shells Box
+[/list]
+
+[b]Ammo Mat Return Thresholds[/b]
+Ammo boxes must be above these conditions when they're deconstructed, or they will only produce aluminum.
+Most are simply changed to ≥90%, to create a parallel with the ≤10% refill threshold.
+
+[u]Coilgun Ammunition Box[/u]
+[*]∅ → ≥90% | ∅ → 20 shots
+[u]Piercing Coilgun Ammunition Box[/u]
+[*]∅ → ≥90% | ∅ → 15 shots
+[u]Explosive Coilgun Ammunition Box[/u]
+[*]≥95% → ≥90% | 8 shots → 15 shots
+[u]Depleted Fuel Coilgun Ammunition Box[/u]
+[*]≥95% → ≥90% | 10 shots → 20 shots
+[u]Physicorium Ammunition Box[/u]
+[*]≥95% → ≥90% | 10 shots → 20 shots
+[u]Coilgun Harpoon Box[/u]
+[*]∅ → ≥65% | ∅ → 1 shot
+[*]Refill: ≤10% → ≤0% (no mechanical change since harpoon boxes only have 3 shots; it just looks nicer)
+[u]Chaingun Ammunition Box[/u]
+[*]∅ → ≥90% | ∅ → 50 shots
+[u]Shredder Chaingun Ammunition Box[/u]
+[*]∅ → ≥90% | ∅ → 40 shots
+[u]Physicorium Chaingun Ammunition Box[/u]
+[*]≥95 → ≥90% | 25 shots → 50 shots
+[u]Pulse Laser Fuel Box[/u]
+[*]≥95 → ≥90% | 3 shots → 5 shots
+[u]Pulse Tri-Laser Fuel Box[/u]
+[*]≥95 → ≥90% | 2 shots → 3 shots
+[u]Spreader Flak Shells Box[/u]
+[*]∅ → ≥90% | ∅ → 4 shots
+[u]Focused Flak Shells Box[/u]
+[*]∅ → ≥90% | ∅ → 4 shots
+[u]Explosive Flak Shells Box[/u]
+[*]≥95% → ≥90% | 2 → 4 shots
+[u]Physicorium Flak Shells Box[/u]
+[*]≥95% → ≥90% | 2 → 4 shots
+[u]Gravity Flak Shells Box[/u]
+[*]≥95% + ≥50% → ≥90% + ≥45% | 1 + 10 → 2 + 11 shots
+
+[hr][/hr]
+[h2]Is this mod compatible with X?[/h2]
+This is a relatively unintrusive mod that shouldn't break anything by itself. It can be added or removed during a campaign at any time without issue.
+If a mod edits any of the vanilla ammo box items, its changes will be overridden if this mod loads after it; likewise, this mod's changes will be overridden if it loads before the other mod. If you'd like a compatibility patch, be sure to ask for it!
+
+[b]Found a bug? Leave a comment or start a discussion![/b]
+
+[hr][/hr]
+[h2]Can you add cross-mod support for X?[/h2]
+Potentially, though I've yet to dabble in pretty much any content mod, and am not familiar with what's out there either. If you're the owner of (or somehow affiliated with) a mod that you want me to add support for, consider reaching out to ask.
+
+[hr][/hr]
+[h2]How often does this mod update?[/h2]
+As this is a very small mod, there's not much to do except keep on the lookout for bugs and cross-mod support opportunities. As such, it will only get updated when needed.
+
+[b]CURRENT FOCUS:[/b] none
+[b]CURRENT STATUS:[/b] being passively maintained
+
+[hr][/hr]
+[h2]Credits go to[/h2]
+[*][b]SpicySpaceSnake[/b] ([url=https://spicyspacesnake.carrd.co/]that's me![/url]): programmer
+[h3]And a special thanks to[/h3]
+[list]
+[*][b]My partners[/b], for being a bunch of absolutely amazing people
+
+[*]and [b]YOU[/b], for taking the time to check out this mod!
+[/list]
+
+Please be sure to rate on your way out, and share this with anyone you think might like it. Happy Barotrauming!
