@@ -13,7 +13,7 @@ This mod only affects ammo [i]boxes[/i]; Railgun Shell, Canister Railgun Shell, 
 
 This is not a straightforward improvement. Creating recipes that are at least passably balanced and mitigate cheesing potential is hard and imperfect. You may not agree with my choices. That's ok!
 
-[h3]The changes[/h3]
+[h3]Recipe changes[/h3]
 [b]Coilgun Ammunition Box[/b]
 Aluminum x1, [u]Iron x2[/u]
 [*]Some recipes return ingredients of ingredients - and for that, iron was the perfect candidate, as it's very common and only makes up a third of the ammo's recipe
@@ -47,7 +47,7 @@ Aluminum x1, [strike]C-4 Block x1[/strike] [u]Sodium x2[/u], [u]Plastic x1[/u]
 Aluminum x1, Physicorium Bar x1, [u]Magnesium x1[/u]
 [*]Like the chaingun equivalent, all that's needed is a little extra padding
 
-[b]Unchanged Recipes[/b]
+[b]Unchanged[/b]
 [list]
 [*]Explosive Coilgun Ammunition Box
 [*]Depleted Fuel Coilgun Ammunition Box
@@ -57,10 +57,9 @@ Aluminum x1, Physicorium Bar x1, [u]Magnesium x1[/u]
 [*]Gravity Flak Shells Box
 [/list]
 
-[b]Ammo Mat Return Thresholds[/b]
+[h3]Return Threshold Changes[/h3]
 Ammo boxes must be above these conditions when they're deconstructed, or they will only produce aluminum.
 Most are simply changed to ≥90%, to create a parallel with the ≤10% refill threshold.
-
 [u]Coilgun Ammunition Box[/u]
 [*]∅ → ≥90% | ∅ → 20 shots
 [u]Piercing Coilgun Ammunition Box[/u]
