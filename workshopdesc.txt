@@ -3,7 +3,9 @@ is a simple mod that allows all turret ammunition boxes (above a certain quality
 
 [hr][/hr]
 [h2]What exactly does this mod do?[/h2]
-A handful of special ammo boxes, such as Physicorium, return their respective special materials when deconstructed at high condition. Most other ammo boxes, however, don't. This is, as I interpret it, for a pretty good reason - any other material that deconstruction could return is part of a recipe with alternatives, potentially allowing for material conversion shenanigans. However, the fact that not all boxes return anything other than aluminum still irks me, so I decided to take a stab at it.
+A handful of special ammo boxes, such as Physicorium, return their respective special materials when deconstructed at high condition. Most other ammo boxes, however, don't. This is, as I interpret it, for a pretty good reason - any other material that deconstruction could return is part of a recipe with alternatives, potentially allowing for material conversion shenanigans.
+
+However, the fact that not all boxes return anything other than aluminum still irks me, so I decided to take a stab at it. Though the idea primarily came about to make wrecks a teeny bit more rewarding, it's also helpful for ammo crafting in a general sense.
 
 It also reduces the condition thresholds for returning said ammo materials, allowing for a little more leeway when it comes to deconstructing.
 
@@ -20,7 +22,7 @@ Aluminum x1, [u]Steel Bar x1[/u]
 [*]Also makes up only a third of the recipe, and is the most common of the possible materials by a large margin
 [b]Coilgun Harpoon Box[/b]
 Aluminum x1, [u]Organic Fiber x1[/u]
-[*]More common than steel; straightforward enough.
+[*]More common than steel; straightforward enough
 
 [b]Chaingun Ammunition Box[/b]
 Aluminum x1, [u]Copper x2[/u]
@@ -39,8 +41,8 @@ Aluminum x1, [u]Copper x1[/u], [u]Phosphorous x1[/u]
 Aluminum x1, [u]Steel Bar x1[/u], [u]Phosphorous x1[/u]
 [*]Slightly less common materials from more expensive ammo
 [b]Explosive Flak Shells Box[/b]
-Aluminum x1, [strike]C-4 Block x1[/strike] [u]Sodium x2[/u]
-[*]I don't like removing things, but I felt this would make sense considering that the coilgun equivalent returns sodium instead of C-4
+Aluminum x1, [strike]C-4 Block x1[/strike] [u]Sodium x2[/u], [u]Plastic x1[/u]
+[*]I don't like removing things, but I felt this would make sense considering that the coilgun equivalent returns sodium instead of C-4 or UEX. Also gives you one of the plastic from the C-4
 [b]Physicorium Flak Shells Box[/b]
 Aluminum x1, Physicorium Bar x1, [u]Magnesium x1[/u]
 [*]Like the chaingun equivalent, all that's needed is a little extra padding
@@ -71,7 +73,6 @@ Most are simply changed to ≥90%, to create a parallel with the ≤10% refill t
 [*]≥95% → ≥90% | 10 shots → 20 shots
 [u]Coilgun Harpoon Box[/u]
 [*]∅ → ≥65% | ∅ → 1 shot
-[*]Refill: ≤10% → ≤0% (no mechanical change since harpoon boxes only have 3 shots; it just looks nicer)
 [u]Chaingun Ammunition Box[/u]
 [*]∅ → ≥90% | ∅ → 50 shots
 [u]Shredder Chaingun Ammunition Box[/u]
