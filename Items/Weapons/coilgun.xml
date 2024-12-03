@@ -17,8 +17,8 @@
     <Deconstruct time="10">
       <Item identifier="aluminium"/>
       <!-- new mats -->
-      <Item identifier="iron"/>
-      <Item identifier="iron"/>
+      <Item identifier="iron" mincondition="0.90"/>
+      <Item identifier="iron" mincondition="0.90"/>
     </Deconstruct>
     <Fabricate suitablefabricators="fabricator" requiredtime="20">
       <RequiredSkill identifier="weapons" level="25"/>
@@ -61,6 +61,8 @@
     </Price>
     <Deconstruct time="10">
       <Item identifier="aluminium"/>
+      <!-- new mats -->
+      <Item identifier="steel" mincondition="0.90"/>
     </Deconstruct>
     <Fabricate suitablefabricators="fabricator" requiredtime="20">
       <RequiredSkill identifier="weapons" level="30" />
@@ -104,8 +106,8 @@
       <Price storeidentifier="merchantarmory" sold="true" multiplier="0.9" maxavailable="2" minleveldifficulty="5" />
     </Price>
     <Deconstruct time="10">
-      <Item identifier="sodium" mincondition="0.95" />
       <Item identifier="aluminium" />
+      <Item identifier="sodium" mincondition="0.90"/> <!-- 0.95 → 0.90 -->
     </Deconstruct>
     <Fabricate suitablefabricators="fabricator" requiredtime="20">
       <RequiredSkill identifier="weapons" level="50" />
@@ -160,8 +162,8 @@
       <RequiredItem tag="ammobox" mincondition="0.0" maxcondition="0.1" usecondition="false" description="fabricationdescription.ammoboxrecycle" header="fabricationheader.ammoboxrecycle" defaultitem="coilgunammoboxdepletedfuel" />
     </Fabricate>
     <Deconstruct time="10">
-      <Item identifier="depletedfuel" mincondition="0.95" />
       <Item identifier="aluminium" />
+      <Item identifier="depletedfuel" mincondition="0.90" /> <!-- 0.95 → 0.90 -->
     </Deconstruct>
     <Sprite texture="Content/Items/Containers/containers.png" depth="0.54" sourcerect="560,878,95,78" origin="0.5,0.5" />
     <Body width="115" height="88" density="30" />
@@ -205,8 +207,8 @@
       <RequiredItem tag="ammobox" mincondition="0.0" maxcondition="0.1" usecondition="false" description="fabricationdescription.ammoboxrecycle" header="fabricationheader.ammoboxrecycle" defaultitem="physicoriumammobox" />
     </Fabricate>
     <Deconstruct time="10">
-      <Item identifier="physicorium" mincondition="0.95"/>
       <Item identifier="aluminium"/>
+      <Item identifier="physicorium" mincondition="0.90"/> <!-- 0.95 → 0.90 -->
     </Deconstruct>
     <Sprite texture="Content/Items/Containers/containers.png" depth="0.54" sourcerect="918,788,95,78" origin="0.5,0.5" />
     <Body width="90" height="72" density="30" />
@@ -250,6 +252,8 @@
     </Fabricate>
     <Deconstruct time="10">
       <Item identifier="aluminium"/>
+      <!-- new mats -->
+      <Item identifier="organicfiber" mincondition="0.65"/>
     </Deconstruct>
     <Sprite texture="Content/Items/Containers/containers2.png" depth="0.54" sourcerect="2,192,95,78" origin="0.5,0.5" />
     <Body width="95" height="78" density="30" />

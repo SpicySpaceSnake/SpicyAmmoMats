@@ -1,4 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <contentpackage name="Spicetrauma:Enriched Ammo Deconstruction" modversion="1.0.0" corepackage="False" gameversion="1.4.6.0">
   <Item file="%ModDir%/Items/Weapons/coilgun.xml"/>
+  <Item file="%ModDir%/Items/Weapons/chaingun.xml"/>
+  <Item file="%ModDir%/Items/Weapons/pulaselaser.xml"/>
+  <Item file="%ModDir%/Items/Weapons/flakcannon.xml"/>
 </contentpackage>

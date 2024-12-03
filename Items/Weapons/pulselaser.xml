@@ -13,8 +13,8 @@
       <Price storeidentifier="merchantarmory" multiplier="0.9" />
     </Price>
     <Deconstruct time="10">
-      <Item identifier="lithium" mincondition="0.95"/>
       <Item identifier="aluminium" />
+      <Item identifier="lithium" mincondition="0.90"/> <!-- 0.95 → 0.90 -->
     </Deconstruct>
     <Fabricate suitablefabricators="fabricator" requiredtime="20">
       <RequiredSkill identifier="weapons" level="50" />
@@ -56,8 +56,8 @@
       <Price storeidentifier="merchantarmory" multiplier="0.9" />
     </Price>
     <Deconstruct time="10">
-      <Item identifier="fulgurium" mincondition="0.95"/>
       <Item identifier="aluminium" />
+      <Item identifier="fulgurium" mincondition="0.90"/> <!-- 0.95 → 0.90 -->
     </Deconstruct>
     <Fabricate suitablefabricators="fabricator" requiredtime="20">
       <RequiredSkill identifier="weapons" level="65" />

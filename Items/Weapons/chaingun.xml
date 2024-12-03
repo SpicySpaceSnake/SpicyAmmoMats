@@ -16,6 +16,9 @@
     </Price>
     <Deconstruct time="10">
       <Item identifier="aluminium" />
+      <!-- new mats -->
+      <Item identifier="copper" mincondition="0.90"/>
+      <Item identifier="copper" mincondition="0.90"/>
     </Deconstruct>
     <Fabricate suitablefabricators="fabricator" requiredtime="20">
       <RequiredSkill identifier="weapons" level="40" />
@@ -58,6 +61,9 @@
     </Price>
     <Deconstruct time="10">
       <Item identifier="aluminium" />
+      <!-- new mats -->
+      <Item identifier="steel" mincondition="0.90"/>
+      <Item identifier="steel" mincondition="0.90"/>
     </Deconstruct>
     <Fabricate suitablefabricators="fabricator" requiredtime="20">
       <RequiredSkill identifier="weapons" level="60" />
@@ -101,8 +107,10 @@
       <Price storeidentifier="merchantarmory" sold="true"  multiplier="0.9" minavailable="1"/>
     </Price>
     <Deconstruct time="10">
-      <Item identifier="physicorium" mincondition="0.95" />
       <Item identifier="aluminium" />
+      <Item identifier="physicorium" mincondition="0.90" /> <!-- 0.95 → 0.90 -->
+      <!-- new mats -->
+      <Item identifier="steel" mincondition="0.90"/>
     </Deconstruct>
     <Fabricate suitablefabricators="fabricator" requiredtime="20">
       <RequiredSkill identifier="weapons" level="55" />
