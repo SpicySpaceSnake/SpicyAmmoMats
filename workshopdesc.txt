@@ -117,13 +117,13 @@ Most are simply changed to ≥90%, to create a parallel with the ≤10% refill t
 [hr][/hr]
 [h2]Is this mod compatible with X?[/h2]
 This is a relatively unintrusive mod that shouldn't break anything by itself. It can be added or removed during a campaign at any time without issue.
-If a mod edits any of the vanilla ammo box items, its changes will be overridden if this mod loads after it; likewise, this mod's changes will be overridden if it loads before the other mod. If you'd like a compatibility patch, be sure to ask for it!
+If a mod edits any of the above changed items, its changes will be overridden if this mod loads after (is above) it; likewise, this mod's changes will be overridden if it loads before (is below) the other mod. If you'd like a compatibility patch, ask for it!
 
 [b]Found a bug? Leave a comment or start a discussion![/b]
 
 [hr][/hr]
 [h2]Can you add cross-mod support for X?[/h2]
-Potentially, though I've yet to dabble in pretty much any content mod, and am not familiar with what's out there either. If you're the owner of (or somehow affiliated with) a mod that you want me to add support for, consider reaching out to ask.
+Potentially, though I've yet to dabble in pretty much any content mod, and am not familiar with what's out there either. If you have a mod that you want me to add support for, consider reaching out to ask.
 
 [hr][/hr]
 [h2]How often does this mod update?[/h2]
@@ -137,6 +137,7 @@ As this is a very small mod, there's not much to do except keep on the lookout f
 [*][b]SpicySpaceSnake[/b] ([url=https://spicyspacesnake.carrd.co/]that's me![/url]): programmer
 [h3]And a special thanks to[/h3]
 [list]
+[*][b]Kira[/b], for buying me Barotrauma and getting me into it in the first place
 [*][b]My partners[/b], for being a bunch of absolutely amazing people
 
 [*]and [b]YOU[/b], for taking the time to check out this mod!
