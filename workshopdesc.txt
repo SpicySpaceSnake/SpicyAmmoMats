@@ -35,10 +35,10 @@ Aluminum x1, Physicorium Bar x1, [u]Steel Bar x1[/u]
 [*]Mostly for a little extra padding, as the less expensive coilgun equivalent normally returns the same amount which doesn't make much sense
 
 [b]Spreader Flak Shells Box[/b]
-Aluminum x1, [u]Copper x1[/u], [u]Phosphorous x1[/u]
-[*]To avoid redundancy with the basic coilgun and chaingun ammos; phosphorous is also the more common of the two explosive powders
+Aluminum x1, [u]Copper x1[/u], [u]Phosphorus x1[/u]
+[*]To avoid redundancy with the basic coilgun and chaingun ammos; phosphorus is also the more common of the two explosive powders
 [b]Focused Flak Shells Box[/b]
-Aluminum x1, [u]Steel Bar x1[/u], [u]Phosphorous x1[/u]
+Aluminum x1, [u]Steel Bar x1[/u], [u]Phosphorus x1[/u]
 [*]Slightly less common materials from more expensive ammo
 [b]Explosive Flak Shells Box[/b]
 Aluminum x1, [strike]C-4 Block x1[/strike] [u]Sodium x2[/u], [u]Plastic x1[/u]
