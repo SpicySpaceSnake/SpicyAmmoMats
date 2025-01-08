@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Override>
+<!-- SMG Magazine -->
+  <Item name="" identifier="smgmagazine" maxstacksize="8" maxstacksizecharacterinventory="2" scale="0.5" category="Weapon" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem,smgammo,handheldammo" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="smg,smgunique,machinepistol" amount="1" spawnprobability="1" />
+    <PreferredContainer primary="armcab" amount="1" spawnprobability="1" notcampaign="true" notpvp="true" />
+    <PreferredContainer secondary="outpostsecarmcab" minamount="1" maxamount="2" spawnprobability="0.5" />
+    <PreferredContainer secondary="wrecksecarmcab" minamount="1" maxamount="2" spawnprobability="0.2" />
+    <PreferredContainer secondary="secarmcab" />
+    <PreferredContainer secondary="respawncontainer_kingofthehull" amount="8" spawnprobability="1" notcampaign="true"/>
+    <Price baseprice="100" displaynonempty="true" minleveldifficulty="15">
+      <Price storeidentifier="merchantoutpost" sold="false" multiplier="1.5" />
+      <Price storeidentifier="merchantcity" multiplier="1.25" minavailable="2" sold="false" />
+      <Price storeidentifier="merchantresearch" sold="false" multiplier="1.25" />
+      <Price storeidentifier="merchantmilitary" multiplier="0.9" minavailable="4" />
+      <Price storeidentifier="merchantmine" sold="false" multiplier="1.25" />
+      <Price storeidentifier="merchantarmory" multiplier="0.9" minavailable="4" />
+    </Price>
+    <Fabricate suitablefabricators="fabricator" requiredtime="25" requiresrecipe="true">
+      <RequiredSkill identifier="weapons" level="40" />
+      <RequiredItem tag="munition_propulsion" description="fabricationdescription.munition_propulsion" />
+      <RequiredItem tag="munition_core" description="fabricationdescription.munition_core" />
+      <RequiredItem tag="munition_jacket" description="fabricationdescription.munition_jacket" />
+      <RequiredItem identifier="steel" />
+    </Fabricate>
+    <Fabricate suitablefabricators="fabricator" requiredtime="15" requiresrecipe="true" displayname="recycleitem">
+      <RequiredSkill identifier="weapons" level="40" />
+      <RequiredItem tag="munition_propulsion" description="fabricationdescription.munition_propulsion" />
+      <RequiredItem tag="munition_core" description="fabricationdescription.munition_core" />
+      <RequiredItem tag="munition_jacket" description="fabricationdescription.munition_jacket" />
+      <RequiredItem identifier="smgmagazine" mincondition="0.0" maxcondition="0.1" usecondition="false" />
+    </Fabricate>
+    <Deconstruct time="10">
+      <Item identifier="steel"/>
+      <!-- new mats -->
+      <Item identifier="iron" mincondition="0.90"/>
+    </Deconstruct>
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="960,960,64,64" />
+    <Sprite texture="Content/Items/Weapons/weapons_new.png" depth="0.54" sourcerect="146,157,21,44" origin="0.5,0.5" />
+    <Body width="14" height="40" density="25" />
+    <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true" SpawnWithId="smground" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet">
+      <Containable items="smground" />
+      <StatusEffect type="OnUse" target="This" condition="-4.8" disabledeltatime="true">
+        <SpawnItem identifiers="smground" spawnposition="ThisInventory" />
+      </StatusEffect>
+    </ItemContainer>
+    <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
+    <Upgrade gameversion="0.10.0.0" scale="0.5" />
+  </Item>
+
+<!-- Depleted Fuel SMG Magazine -->
+  <Item name="" identifier="smgmagazinedepletedfuel" variantof="smgmagazine" allowasextracargo="true" inventoryiconcolor="110,120,110,255" spritecolor="110,120,110">
+    <PreferredContainer primary="smg,smgunique" spawnprobability="0"/>
+    <PreferredContainer primary="secarmcab" spawnprobability="0"/>
+    <PreferredContainer primary="outpostsecarmcab" spawnprobability="0"/>
+    <PreferredContainer primary="wrecksecarmcab" spawnprobability="0"/>
+    <PreferredContainer secondary="secarmcab" spawnprobability="0" />
+    <PreferredContainer secondary="respawncontainer_kingofthehull" spawnprobability="0"/>
+    <Price baseprice="160" sold="false" />
+    <Fabricate suitablefabricators="fabricator" requiredtime="30" requiresrecipe="true">
+      <RequiredSkill identifier="weapons" level="40" />
+      <RequiredSkill identifier="electrical" level="30" />
+      <RequiredItem tag="munition_propulsion" description="fabricationdescription.munition_propulsion" />
+      <RequiredItem identifier="depletedfuel" />
+      <RequiredItem tag="munition_jacket" description="fabricationdescription.munition_jacket" />
+      <RequiredItem identifier="steel" />
+    </Fabricate>
+    <Fabricate suitablefabricators="fabricator" requiredtime="18" requiresrecipe="true" displayname="recycleitem">
+      <RequiredSkill identifier="weapons" level="40" />
+      <RequiredSkill identifier="electrical" level="30" />
+      <RequiredItem tag="munition_propulsion" description="fabricationdescription.munition_propulsion" />
+      <RequiredItem identifier="depletedfuel" />
+      <RequiredItem tag="munition_jacket" description="fabricationdescription.munition_jacket" />
+      <RequiredItem identifier="smgmagazinedepletedfuel" mincondition="0.0" maxcondition="0.1" usecondition="false" />
+    </Fabricate>
+    <Deconstruct time="15">
+      <Item identifier="depletedfuel" mincondition="0.90"/> <!-- 0.95 → 0.90 -->
+      <Item identifier="steel"/>
+      <!-- new mats -->
+      <Item identifier="phosphorus" mincondition="0.90"/>
+    </Deconstruct>
+    <ItemContainer SpawnWithId="smgrounddepletedfuel">
+      <Containable items="smgrounddepletedfuel" />
+      <StatusEffect type="OnUse" target="This" condition="-4.8" disabledeltatime="true">
+        <SpawnItem identifiers="smgrounddepletedfuel" spawnposition="ThisInventory" />
+      </StatusEffect>
+    </ItemContainer>
+  </Item>
+
+<!-- HMG Magazine -->
+  <Item name="" identifier="hmgmagazine" maxstacksize="4" maxstacksizecharacterinventory="1" scale="0.5" category="Weapon" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem,hmgammo,handheldammo" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="hmg" minamount="1" maxamount="1" spawnprobability="1" />
+    <PreferredContainer primary="armcab" secondary="secarmcab" />
+    <Price baseprice="330" sold="true" minleveldifficulty="65" displaynonempty="true">
+      <Price storeidentifier="merchantoutpost" multiplier="1.4" />
+      <Price storeidentifier="merchantcity" multiplier="1.25" />
+      <Price storeidentifier="merchantresearch" multiplier="1.25" />
+      <Price storeidentifier="merchantmilitary" sold="true" multiplier="0.9" minavailable="0" maxavailable="4" />
+      <Price storeidentifier="merchantarmory" sold="true" multiplier="0.9" minavailable="0" maxavailable="4" />
+      <Price storeidentifier="merchantmine" multiplier="1.25" />
+    </Price>
+    <Fabricate suitablefabricators="fabricator" requiredtime="35" requiresrecipe="true">
+      <RequiredSkill identifier="weapons" level="40" />
+      <RequiredItem identifier="magnesium" />
+      <RequiredItem identifier="titaniumaluminiumalloy" />
+      <RequiredItem tag="advmunition_core" description="fabricationdescription.advmunition_core" />
+      <RequiredItem tag="advmunition_jacket" description="fabricationdescription.advmunition_jacket" />
+      <RequiredItem identifier="steel" />
+    </Fabricate>
+    <Fabricate suitablefabricators="fabricator" requiredtime="35" displayname="recycleitem" requiresrecipe="true">
+      <RequiredSkill identifier="weapons" level="40" />
+      <RequiredItem identifier="magnesium" />
+      <RequiredItem identifier="titaniumaluminiumalloy" />
+      <RequiredItem tag="advmunition_core" description="fabricationdescription.advmunition_core" />
+      <RequiredItem tag="advmunition_jacket" description="fabricationdescription.advmunition_jacket" />
+      <RequiredItem identifier="hmgmagazine" mincondition="0.0" maxcondition="0.1" usecondition="false" />
+    </Fabricate>
+    <Deconstruct time="15">
+      <Item identifier="steel"/>
+      <!-- new mats -->
+      <Item identifier="magnesium" mincondition="0.90"/>
+      <Item identifier="titaniumaluminiumalloy" mincondition="0.90"/>
+    </Deconstruct>
+    <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="208,88,29,37" depth="0.55" origin="0.5,0.5" />
+    <Body width="29" height="37" density="25" />
+    <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true" SpawnWithId="hmground" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet">
+      <Containable items="hmground" />
+      <StatusEffect type="OnUse" target="This" condition="-1" disabledeltatime="true">
+        <SpawnItem identifiers="hmground" spawnposition="ThisInventory" />
+      </StatusEffect>
+    </ItemContainer>
+    <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
+  </Item>
+
+<!-- Assault Rifle Magazine -->
+  <Item name="" identifier="assaultriflemagazine" maxstacksize="8" maxstacksizecharacterinventory="2" scale="0.5" category="Weapon" allowasextracargo="true" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem,assaultrifleammo,handheldammo" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="assaultrifle" minamount="1" maxamount="1" spawnprobability="1"/>
+    <PreferredContainer primary="armcab" secondary="secarmcab"/>
+    <Price baseprice="300" sold="false" minleveldifficulty="60" displaynonempty="true">
+      <Price storeidentifier="merchantoutpost" multiplier="1.4" />
+      <Price storeidentifier="merchantcity" multiplier="1.25" />
+      <Price storeidentifier="merchantresearch" multiplier="1.25" />
+      <Price storeidentifier="merchantmilitary" sold="true" multiplier="0.9" minavailable="0" maxavailable="4" />
+      <Price storeidentifier="merchantmine" multiplier="1.25" />
+    </Price>
+    <Fabricate suitablefabricators="fabricator" requiredtime="35" requiresrecipe="true">
+      <RequiredSkill identifier="weapons" level="40" />
+      <RequiredItem identifier="magnesium" />
+      <RequiredItem tag="advmunition_tip" description="fabricationdescription.advmunition_tip" />
+      <RequiredItem tag="advmunition_core" description="fabricationdescription.advmunition_core" />
+      <RequiredItem tag="advmunition_jacket" description="fabricationdescription.advmunition_jacket" />
+      <RequiredItem identifier="steel" />
+    </Fabricate>
+    <Fabricate suitablefabricators="fabricator" requiredtime="35" displayname="recycleitem" requiresrecipe="true">
+      <RequiredSkill identifier="weapons" level="40" />
+      <RequiredItem identifier="magnesium" />
+      <RequiredItem tag="advmunition_tip" description="fabricationdescription.advmunition_tip" />
+      <RequiredItem tag="advmunition_core" description="fabricationdescription.advmunition_core" />
+      <RequiredItem tag="advmunition_jacket" description="fabricationdescription.advmunition_jacket" />
+      <RequiredItem identifier="assaultriflemagazine" mincondition="0.0" maxcondition="0.1" usecondition="false"/>
+    </Fabricate>
+    <Deconstruct time="15">
+      <Item identifier="steel"/>
+      <!-- new mats -->
+      <Item identifier="magnesium" mincondition="0.90"/>
+      <Item identifier="steel" mincondition="0.90"/>
+      <Item identifier="copper" mincondition="0.90"/>
+    </Deconstruct>
+    <InventoryIcon texture="Content/Items/JobGear/TalentGear.png" sourcerect="476,3,36,48" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/JobGear/TalentGear.png" sourcerect="476,3,36,48" depth="0.55" origin="0.5,0.5" />
+    <Body width="28" height="40" density="25" />
+    <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true" SpawnWithId="assaultrifleround" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet">
+      <Containable items="assaultrifleround" />
+      <StatusEffect type="OnUse" target="This" condition="-3.3" disabledeltatime="true">
+        <SpawnItem identifiers="assaultrifleround" spawnposition="ThisInventory" />
+      </StatusEffect>
+    </ItemContainer>
+    <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
+  </Item>
