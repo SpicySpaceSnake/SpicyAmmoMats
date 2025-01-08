@@ -1,19 +1,32 @@
 [h1]Spicetrauma:Enriched Ammo Deconstruction[/h1]
-is a simple mod that allows all turret ammunition boxes (above a certain quality) to be deconstructed for part of the cost of their actual munitions.
+is a simple mod that allows all turret ammunition boxes and gun magazines (above a certain quality) to be deconstructed for part of the cost of their actual munitions.
 
 [hr][/hr]
 [h2]What exactly does this mod do?[/h2]
-A handful of special ammo boxes, such as Physicorium, return their respective special materials when deconstructed at high condition. Most other ammo boxes, however, don't. This is, as I interpret it, for a pretty good reason - any other material that deconstruction could return is part of a recipe with alternatives, potentially allowing for material conversion shenanigans.
+A handful of special ammo boxes, such as Physicorium, return their respective special materials when deconstructed at high condition. Most other ammo boxes, however, don't. This is, as I interpret it, for a pretty good reason - any other material that deconstruction could return is part of a recipe with alternatives, potentially allowing for material conversion shenanigans. The same applies to all magazines without exception.
 
-However, the fact that not all boxes return anything other than aluminum still irks me, so I decided to take a stab at it. Though the idea primarily came about to make wrecks a teeny bit more rewarding, it's also helpful for ammo crafting in a general sense.
+However, the fact that not all boxes/mags return anything other than the packaging material still irks me, so I decided to take a stab at it. Though the idea primarily came about to make looting a teeny bit more rewarding, it's also helpful for ammo crafting in a general sense.
 
-It also reduces the condition thresholds for returning said ammo materials, allowing for a little more leeway when it comes to deconstructing.
+In the case of ammo boxes, it also reduces the condition thresholds for returning said ammo materials, allowing for a little more leeway when it comes to deconstructing.
 
-This mod only affects ammo [i]boxes[/i]; Railgun Shell, Canister Railgun Shell, Physicorium Railgun Shell, Nuclear Railgun Shell, Gravity Railgun Shell, and Railgun Harpoon are completely unchanged.
+This mod [i]only[/i] affects magazines and ammo boxes; individual projectiles, such as railgun shells and revolver rounds, are completely unchanged.
 
-This is not a straightforward improvement. Creating recipes that are at least passably balanced and mitigate cheesing potential is hard and imperfect. You may not agree with my choices. That's ok!
+This is not a straightforward improvement! Creating recipes that are at least passably balanced and mitigate cheesing potential is hard and imperfect, and you might not agree with my choices.
 
 [h3]Recipe changes[/h3]
+[b]SMG Magazine[/b]
+Steel Bar x1, [u]Iron x1[/u]
+[*]Small amounts of the most common material in the recipe, as this ammo is relatively weak
+[b]Depleted Fuel SMG Magazine[/b]
+Steel Bar x1, Depleted Fuel x1, [u]Phosphorus x1[/u]
+[*]Would've also given it iron, but I felt phosphor was more appropriate for the overall cost
+[b]HMG Magazine[/b]
+Steel Bar x1, [u]Magnesium x1[/u], [u]Titanium-Aluminum Alloy x1[/u]
+[*]One of the rare instances where an ingredient doesn't have an alternative! Included nothing else so as to not make it too good
+[b]Assault Rifle Magazine[/b]
+Steel Bar x1, [u]Magnesium x1[/u], [u]Steel Bar x1[/u], [u]Copper x1[/u]
+[*]Like the HMG mag, magnesium doesn't have alts. The others are the two most common mats, added for extra padding
+
 [b]Coilgun Ammunition Box[/b]
 Aluminum x1, [u]Iron x2[/u]
 [*]Some recipes return ingredients of ingredients - and for that, iron was the perfect candidate, as it's very common and only makes up a third of the ammo's recipe
@@ -60,6 +73,14 @@ Aluminum x1, Physicorium Bar x1, [u]Magnesium x1[/u]
 [h3]Return Threshold Changes[/h3]
 Ammo boxes must be above these conditions when they're deconstructed, or they will only produce aluminum.
 Most are simply changed to ≥90%, to create a parallel with the ≤10% refill threshold.
+[u]SMG Magazine[/u]
+[*]∅ → ≥90% | ∅ → 2 shots
+[u]Depleted Fuel SMG Magazine[/u]
+[*]∅ → ≥90% | ∅ → 2 shots
+[u]HMG Magazine[/u]
+[*]∅ → ≥90% | ∅ → 10 shots
+[u]Assault Rifle Magazine[/u]
+[*]∅ → ≥90% | ∅ → 3 shots
 [u]Coilgun Ammunition Box[/u]
 [*]∅ → ≥90% | ∅ → 20 shots
 [u]Piercing Coilgun Ammunition Box[/u]
