@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Override>
-  <!-- Coilgun Ammunition Box -->
+<!-- Coilgun Ammunition Box -->
   <Item name="" identifier="coilgunammobox" scale="0.5" tags="coilgunequipment,coilgunammo,ammobox" category="Weapon" linkable="true" impactsoundtag="impact_metal_heavy" cargocontaineridentifier="">
     <PreferredContainer primary="coilgunammoloader" amount="2" mincondition="1"/>
     <PreferredContainer primary="ammoboxcontainer" amount="2" mincondition="1"/>
@@ -46,7 +46,7 @@
     </ItemContainer>
   </Item>
 
-  <!-- Piercing Coilgun Ammunition Box -->
+<!-- Piercing Coilgun Ammunition Box -->
   <Item name="" identifier="coilgunammoboxpiercing" scale="0.5" tags="coilgunequipment,coilgunammo,ammobox" category="Weapon" linkable="true" impactsoundtag="impact_metal_heavy" cargocontaineridentifier="">
     <PreferredContainer primary="coilgunammoloader,ammoboxcontainer" mincondition="1"/>
     <PreferredContainer secondary="wreckcoilgunloader" amount="1" spawnprobability="0.05"/>
@@ -92,7 +92,7 @@
     </ItemContainer>
   </Item>
 
-  <!-- Explosive Coilgun Ammunition Box -->
+<!-- Explosive Coilgun Ammunition Box -->
   <Item name="" identifier="coilgunammoboxexplosive" scale="0.5" tags="coilgunequipment,coilgunammo,ammobox" category="Weapon" linkable="true" impactsoundtag="impact_metal_heavy" cargocontaineridentifier="">
     <PreferredContainer primary="coilgunammoloader,ammoboxcontainer" mincondition="1"/>
     <PreferredContainer secondary="wreckcoilgunloader" amount="1" spawnprobability="0.05"/>
@@ -137,7 +137,7 @@
     </ItemContainer>
   </Item>
 
-  <!-- Depleted Fuel Coilgun Ammunition Box -->
+<!-- Depleted Fuel Coilgun Ammunition Box -->
   <Item name="" identifier="coilgunammoboxdepletedfuel" scale="0.5" tags="coilgunequipment,coilgunammo,ammobox" allowasextracargo="true" category="Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="coilgunammoloader"/>    
     <Price baseprice="280" sold="false" displaynonempty="true">
@@ -181,7 +181,7 @@
     </ItemContainer>
   </Item>
 
-  <!-- Physicorium Ammunition Box -->
+<!-- Physicorium Ammunition Box -->
   <Item name="" identifier="physicoriumammobox" scale="0.5" tags="coilgunequipment,coilgunammo,ammobox" category="Weapon" linkable="true" impactsoundtag="impact_metal_heavy" cargocontaineridentifier="">
     <PreferredContainer primary="coilgunammoloader,ammoboxcontainer" mincondition="1"/>
     <PreferredContainer secondary="wreckcoilgunloader" amount="1" spawnprobability="0.05"/>
@@ -226,7 +226,7 @@
     </ItemContainer>
   </Item>
 
-  <!-- Coilgun Harpoon Box -->
+<!-- Coilgun Harpoon Box -->
   <Item name="" identifier="coilgunharpoonbox" scale="0.5" tags="coilgunequipment,coilgunammo,ammobox,noammobelt" category="Weapon" linkable="true" impactsoundtag="impact_metal_heavy" cargocontaineridentifier="">
     <PreferredContainer primary="coilgunammoloader,ammoboxcontainer" mincondition="1"/>
     <PreferredContainer secondary="wreckcoilgunloader" amount="1" spawnprobability="0.05"/>

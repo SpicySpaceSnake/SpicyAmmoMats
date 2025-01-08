@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Override>
-  <!-- Chaingun Ammunition Box -->
+<!-- Chaingun Ammunition Box -->
   <Item name="" identifier="chaingunammobox" scale="0.5" tags="chaingunequipment,chaingunammo,ammobox" category="Weapon" linkable="true" impactsoundtag="impact_metal_heavy" cargocontaineridentifier="">
     <PreferredContainer primary="chaingunammosource" amount="1" mincondition="1"/>
     <PreferredContainer primary="ammoboxcontainer" mincondition="1"/>
@@ -46,7 +46,7 @@
     </ItemContainer>
   </Item>
 
-  <!-- Shredder Chaingun Ammunition Box -->
+<!-- Shredder Chaingun Ammunition Box -->
   <Item name="" identifier="chaingunammoboxshredder" scale="0.5" tags="chaingunequipment,chaingunammo,ammobox" category="Weapon" linkable="true" impactsoundtag="impact_metal_heavy" cargocontaineridentifier="">
     <PreferredContainer primary="chaingunammosource,ammoboxcontainer" mincondition="1"/>
     <PreferredContainer secondary="wreckchaingunloader" amount="1" spawnprobability="0.05"/>
@@ -93,7 +93,7 @@
     </ItemContainer>
   </Item>
 
-  <!-- Physicorium Chaingun Ammunition Box -->
+<!-- Physicorium Chaingun Ammunition Box -->
   <Item name="" identifier="chaingunammoboxphysicorium" fallbacknameidentifier="chaingunammobox" scale="0.5" tags="chaingunequipment,chaingunammo,ammobox" category="Weapon" linkable="true" impactsoundtag="impact_metal_heavy" cargocontaineridentifier="">
     <PreferredContainer primary="chaingunammosource,ammoboxcontainer" mincondition="1"/>
     <PreferredContainer secondary="wreckchaingunloader" amount="1" spawnprobability="0.05"/>

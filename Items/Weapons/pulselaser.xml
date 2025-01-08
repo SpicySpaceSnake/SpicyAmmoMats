@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Override>
-  <!-- Pulse Laser Fuel Box -->
+<!-- Pulse Laser Fuel Box -->
   <Item name="" identifier="pulselaserammobox" scale="0.5" tags="pulselaserequipment,pulselaserammo,ammobox" category="Weapon" linkable="true" impactsoundtag="impact_metal_heavy" cargocontaineridentifier="">
     <PreferredContainer primary="pulselaserammosource" amount="1" mincondition="1"/>
     <PreferredContainer primary="ammoboxcontainer" mincondition="1"/>
@@ -44,7 +44,7 @@
     </ItemContainer>
   </Item>
 
-  <!-- Pulse Tri-Laser Fuel Box -->
+<!-- Pulse Tri-Laser Fuel Box -->
   <Item name="" identifier="pulselaserammoboxtrilaser" fallbacknameidentifier="pulselaserammobox" scale="0.5" tags="pulselaserequipment,pulselaserammo,ammobox" category="Weapon" linkable="true" impactsoundtag="impact_metal_heavy" cargocontaineridentifier="">
     <PreferredContainer primary="pulselaserammosource,ammoboxcontainer" mincondition="1"/>
     <Price baseprice="435" sold="false" displaynonempty="true"  minleveldifficulty="15">
