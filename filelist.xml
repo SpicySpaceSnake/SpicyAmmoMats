@@ -4,4 +4,5 @@
   <Item file="%ModDir%/Items/Weapons/chaingun.xml"/>
   <Item file="%ModDir%/Items/Weapons/pulselaser.xml"/>
   <Item file="%ModDir%/Items/Weapons/flakcannon.xml"/>
+  <Item file="%ModDir%/Items/Weapons/weapons.xml"/>
 </contentpackage>
