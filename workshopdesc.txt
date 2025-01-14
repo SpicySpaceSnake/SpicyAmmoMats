@@ -13,6 +13,9 @@ This mod [i]only[/i] affects magazines and ammo boxes; individual projectiles, s
 
 This is not a straightforward improvement! Creating recipes that are at least passably balanced and mitigate cheesing potential is hard and imperfect, and you might not agree with my choices.
 
+[h3]All of my mods are open-source![/h3]
+Check out the [url=https://github.com/SpicySpaceSnake/SpicyAmmoMats]GitHub repo[/url] to sift through its files and customize your features, or even to contribute to it yourself.
+
 [h3]Recipe changes[/h3]
 [b]SMG Magazine[/b]
 Steel Bar x1, [u]Iron x1[/u]
