@@ -18,7 +18,7 @@
       <Item identifier="aluminium"/>
       <!-- new mats -->
       <Item identifier="iron" mincondition="0.90"/>
-      <Item identifier="iron" mincondition="0.90"/>
+      <Item identifier="iron" mincondition="0.45"/>
     </Deconstruct>
     <Fabricate suitablefabricators="fabricator" requiredtime="20">
       <RequiredSkill identifier="weapons" level="25"/>

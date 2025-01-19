@@ -120,9 +120,9 @@
       <Item identifier="aluminium"/>
       <!-- <Item identifier="c4block" mincondition="0.95"/> --> <!-- Removed; gives sodium instead, like the explosive coilgun ammo /> -->
       <!-- new mats -->
-      <Item identifier="sodium" mincondition="0.90"/>
-      <Item identifier="sodium" mincondition="0.90"/>
       <Item identifier="plastic" mincondition="0.90"/>
+      <Item identifier="sodium" mincondition="0.90"/>
+      <Item identifier="sodium" mincondition="0.45"/>
     </Deconstruct>
     <Fabricate suitablefabricators="fabricator" requiredtime="20">
       <RequiredSkill identifier="weapons" level="50" />

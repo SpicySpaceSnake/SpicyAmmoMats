@@ -18,7 +18,7 @@
       <Item identifier="aluminium" />
       <!-- new mats -->
       <Item identifier="copper" mincondition="0.90"/>
-      <Item identifier="copper" mincondition="0.90"/>
+      <Item identifier="copper" mincondition="0.45"/>
     </Deconstruct>
     <Fabricate suitablefabricators="fabricator" requiredtime="20">
       <RequiredSkill identifier="weapons" level="40" />
@@ -63,7 +63,7 @@
       <Item identifier="aluminium" />
       <!-- new mats -->
       <Item identifier="steel" mincondition="0.90"/>
-      <Item identifier="steel" mincondition="0.90"/>
+      <Item identifier="steel" mincondition="0.45"/>
     </Deconstruct>
     <Fabricate suitablefabricators="fabricator" requiredtime="20">
       <RequiredSkill identifier="weapons" level="60" />
