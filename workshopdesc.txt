@@ -1,4 +1,4 @@
-[h1]Spicetrauma:Enriched Ammo Deconstruction[/h1]
+[h1]Spicetrauma - Enriched Ammo Deconstruction 1.0.1[/h1]
 is a simple mod that allows all turret ammunition boxes and gun magazines (above a certain quality) to be deconstructed for part of the cost of their actual munitions.
 
 [hr][/hr]
@@ -17,51 +17,52 @@ This is not a straightforward improvement! Creating recipes that are at least pa
 Check out the [url=https://github.com/SpicySpaceSnake/SpicyAmmoMats]GitHub repo[/url] to sift through its files and customize your features, or even to contribute to it yourself.
 
 [h3]Recipe changes[/h3]
+Explanations are spoiler-tagged to reduce visual clutter.
 [b]SMG Magazine[/b]
 Steel Bar x1, [u]Iron x1[/u]
-[*]Small amounts of the most common material in the recipe, as this ammo is relatively weak
+[spoiler]Small amounts of the most common material in the recipe, as this ammo is relatively weak[/spoiler]
 [b]Depleted Fuel SMG Magazine[/b]
 Steel Bar x1, Depleted Fuel x1, [u]Phosphorus x1[/u]
-[*]Would've also given it iron, but I felt phosphor was more appropriate for the overall cost
+[spoiler]Would've also given it iron, but I felt phosphor was more appropriate for the overall cost[/spoiler]
 [b]HMG Magazine[/b]
 Steel Bar x1, [u]Magnesium x1[/u], [u]Titanium-Aluminum Alloy x1[/u]
-[*]One of the rare instances where an ingredient doesn't have an alternative! Included nothing else so as to not make it too good
+[spoiler]One of the rare instances where an ingredient doesn't have an alternative! Included nothing else so as to not make it too good[/spoiler]
 [b]Assault Rifle Magazine[/b]
 Steel Bar x1, [u]Magnesium x1[/u], [u]Steel Bar x1[/u], [u]Copper x1[/u]
-[*]Like the HMG mag, magnesium doesn't have alts. The others are the two most common mats, added for extra padding
+[spoiler]Like the HMG mag, magnesium doesn't have alts. The others are the two most common mats, added for extra padding[/spoiler]
 
 [b]Coilgun Ammunition Box[/b]
 Aluminum x1, [u]Iron x2[/u]
-[*]Some recipes return ingredients of ingredients - and for that, iron was the perfect candidate, as it's very common and only makes up a third of the ammo's recipe
+[spoiler]Some recipes return ingredients of ingredients - and for that, iron was the perfect candidate, as it's very common and only makes up a third of the ammo's recipe[/spoiler]
 [b]Piercing Coilgun Ammunition Box[/b]
 Aluminum x1, [u]Steel Bar x1[/u]
-[*]Also makes up only a third of the recipe, and is the most common of the possible materials by a large margin
+[spoiler]Also makes up only a third of the recipe, and is the most common of the possible materials by a large margin[/spoiler]
 [b]Coilgun Harpoon Box[/b]
 Aluminum x1, [u]Organic Fiber x1[/u]
-[*]More common than steel; straightforward enough
+[spoiler]More common than steel; straightforward enough[/spoiler]
 
 [b]Chaingun Ammunition Box[/b]
 Aluminum x1, [u]Copper x2[/u]
-[*]Like the normal coilgun ammo, except that chaingun ammo is more expensive and deserves the next most common material
+[spoiler]Like the normal coilgun ammo, except that chaingun ammo is more expensive and deserves the next most common material[/spoiler]
 [b]Shredder Chaingun Ammunition Box[/b]
 Aluminum x1, [u]Steel Bar x2[/u]
-[*]Like the piercing coilgun ammo, is the most common of the possible materials
+[spoiler]Like the piercing coilgun ammo, is the most common of the possible materials[/spoiler]
 [b]Physicorium Chaingun Ammunition Box[/b]
 Aluminum x1, Physicorium Bar x1, [u]Steel Bar x1[/u]
-[*]Mostly for a little extra padding, as the less expensive coilgun equivalent normally returns the same amount which doesn't make much sense
+[spoiler]Mostly for a little extra padding, as the less expensive coilgun equivalent normally returns the same amount which doesn't make much sense[/spoiler]
 
 [b]Spreader Flak Shells Box[/b]
 Aluminum x1, [u]Copper x1[/u], [u]Phosphorus x1[/u]
-[*]To avoid redundancy with the basic coilgun and chaingun ammos; phosphorus is also the more common of the two explosive powders
+[spoiler]To avoid redundancy with the basic coilgun and chaingun ammos; phosphorus is also the more common of the two explosive powders[/spoiler]
 [b]Focused Flak Shells Box[/b]
 Aluminum x1, [u]Steel Bar x1[/u], [u]Phosphorus x1[/u]
-[*]Slightly less common materials from more expensive ammo
+[spoiler]Slightly less common materials from more expensive ammo[/spoiler]
 [b]Explosive Flak Shells Box[/b]
 Aluminum x1, [strike]C-4 Block x1[/strike] [u]Sodium x2[/u], [u]Plastic x1[/u]
-[*]I don't like removing things, but I felt this would make sense considering that the coilgun equivalent returns sodium instead of C-4 or UEX. Also gives you one of the plastic from the C-4
+[spoiler]I don't like removing things, but I felt this would make sense considering that the coilgun equivalent returns sodium instead of C-4 or UEX. Also gives you one of the plastic from the C-4[/spoiler]
 [b]Physicorium Flak Shells Box[/b]
 Aluminum x1, Physicorium Bar x1, [u]Magnesium x1[/u]
-[*]Like the chaingun equivalent, all that's needed is a little extra padding
+[spoiler]Like the chaingun equivalent, all that's needed is a little extra padding[/spoiler]
 
 [b]Unchanged[/b]
 [list]
@@ -78,23 +79,23 @@ Ammo boxes must be above these conditions when they're deconstructed, or they wi
 For most, this threshold is ≥90%, changed from either 95 (in every case where a munition mat was already given) or nothing at all, to create a parallel with the ≤10% refill threshold.
 However, there are some exceptions:
 [u]Coilgun Ammunition Box[/u]
-[*]∅ → ≥90% + ≥45%
-[i]Applies to the iron; this is a concept taken from Gravity Flak, the only vanilla ammo to have two munition mat thresholds[/i]
+∅ → ≥90% + ≥45%
+[spoiler]Applies to the iron; this is a concept taken from Gravity Flak, the only vanilla ammo to have two munition mat thresholds[/spoiler]
 [u]Coilgun Harpoon Box[/u]
-[*]∅ → ≥65%
-[i]For parity with other boxes; gives you a single free shot[/i]
+∅ → ≥65%
+[spoiler]For parity with other boxes; gives you a single free shot[/spoiler]
 [u]Chaingun Ammunition Box[/u]
-[*]∅ → ≥90% + ≥45%
-[i]Applies to the copper[/i]
+∅ → ≥90% + ≥45%
+[spoiler]Applies to the copper[/spoiler]
 [u]Shredder Chaingun Ammunition Box[/u]
-[*]∅ → ≥90% + ≥45%
-[i]Applies to the steel bars[/i]
+∅ → ≥90% + ≥45%
+[spoiler]Applies to the steel bars[/spoiler]
 [u]Explosive Flak Shells Box[/u]
-[*]≥95% → ≥90% + ≥45%
-[i]Applies to the sodium[/i]
+≥95% → ≥90% + ≥45%
+[spoiler]Applies to the sodium[/spoiler]
 [u]Gravity Flak Shells Box[/u]
-[*]≥95% + ≥50% → ≥90% + ≥45%
-[i]Applies to the Dementonite[/i]
+≥95% + ≥50% → ≥90% + ≥45%
+[spoiler]Applies to the Dementonite[/spoiler]
 
 [hr][/hr]
 [h2]Is this mod compatible with X?[/h2]
