@@ -5,9 +5,9 @@ is a simple mod that allows all turret ammunition boxes and gun magazines (above
 [h2]What exactly does this mod do?[/h2]
 A handful of special ammo boxes, such as Physicorium, return their respective special materials when deconstructed at high condition. Most other ammo boxes, however, don't. This is, as I interpret it, for a pretty good reason - any other material that deconstruction could return is part of a recipe with alternatives, potentially allowing for material conversion shenanigans. The same applies to all magazines without exception.
 
-However, the fact that not all boxes/mags return anything other than the packaging material still irks me, so I decided to take a stab at it. Though the idea primarily came about to make looting a teeny bit more rewarding, it's also helpful for ammo crafting in a general sense.
+However, the fact that not all boxes (and mags, for that matter) return anything other than the packaging material still irks me, so I decided to take a stab at it. Though the idea primarily came about to make looting a teeny bit more rewarding, it's also helpful for ammo crafting in a general sense.
 
-In the case of ammo boxes, it also reduces the condition thresholds for returning said ammo materials, allowing for a little more leeway when it comes to deconstructing.
+It also slightly reduces the condition thresholds for returning said ammo materials, allowing for a little more leeway when it comes to deconstructing.
 
 This mod [i]only[/i] affects magazines and ammo boxes; individual projectiles, such as railgun shells and revolver rounds, are completely unchanged.
 
@@ -75,47 +75,26 @@ Aluminum x1, Physicorium Bar x1, [u]Magnesium x1[/u]
 
 [h3]Return Threshold Changes[/h3]
 Ammo boxes must be above these conditions when they're deconstructed, or they will only produce aluminum.
-Most are simply changed to ≥90%, to create a parallel with the ≤10% refill threshold.
-[u]SMG Magazine[/u]
-[*]∅ → ≥90% | ∅ → 2 shots
-[u]Depleted Fuel SMG Magazine[/u]
-[*]∅ → ≥90% | ∅ → 2 shots
-[u]HMG Magazine[/u]
-[*]∅ → ≥90% | ∅ → 10 shots
-[u]Assault Rifle Magazine[/u]
-[*]∅ → ≥90% | ∅ → 3 shots
+For most, this threshold is ≥90%, changed from either 95 (in every case where a munition mat was already given) or nothing at all, to create a parallel with the ≤10% refill threshold.
+However, there are some exceptions:
 [u]Coilgun Ammunition Box[/u]
-[*]∅ → ≥90% | ∅ → 20 shots
-[u]Piercing Coilgun Ammunition Box[/u]
-[*]∅ → ≥90% | ∅ → 15 shots
-[u]Explosive Coilgun Ammunition Box[/u]
-[*]≥95% → ≥90% | 8 shots → 15 shots
-[u]Depleted Fuel Coilgun Ammunition Box[/u]
-[*]≥95% → ≥90% | 10 shots → 20 shots
-[u]Physicorium Ammunition Box[/u]
-[*]≥95% → ≥90% | 10 shots → 20 shots
+[*]∅ → ≥90% + ≥45%
+[i]Applies to the iron; this is a concept taken from Gravity Flak, the only vanilla ammo to have two munition mat thresholds[/i]
 [u]Coilgun Harpoon Box[/u]
-[*]∅ → ≥65% | ∅ → 1 shot
+[*]∅ → ≥65%
+[i]For parity with other boxes; gives you a single free shot[/i]
 [u]Chaingun Ammunition Box[/u]
-[*]∅ → ≥90% | ∅ → 50 shots
+[*]∅ → ≥90% + ≥45%
+[i]Applies to the copper[/i]
 [u]Shredder Chaingun Ammunition Box[/u]
-[*]∅ → ≥90% | ∅ → 40 shots
-[u]Physicorium Chaingun Ammunition Box[/u]
-[*]≥95 → ≥90% | 25 shots → 50 shots
-[u]Pulse Laser Fuel Box[/u]
-[*]≥95 → ≥90% | 3 shots → 5 shots
-[u]Pulse Tri-Laser Fuel Box[/u]
-[*]≥95 → ≥90% | 2 shots → 3 shots
-[u]Spreader Flak Shells Box[/u]
-[*]∅ → ≥90% | ∅ → 4 shots
-[u]Focused Flak Shells Box[/u]
-[*]∅ → ≥90% | ∅ → 4 shots
+[*]∅ → ≥90% + ≥45%
+[i]Applies to the steel bars[/i]
 [u]Explosive Flak Shells Box[/u]
-[*]≥95% → ≥90% | 2 → 4 shots
-[u]Physicorium Flak Shells Box[/u]
-[*]≥95% → ≥90% | 2 → 4 shots
+[*]≥95% → ≥90% + ≥45%
+[i]Applies to the sodium[/i]
 [u]Gravity Flak Shells Box[/u]
-[*]≥95% + ≥50% → ≥90% + ≥45% | 1 + 10 → 2 + 11 shots
+[*]≥95% + ≥50% → ≥90% + ≥45%
+[i]Applies to the Dementonite[/i]
 
 [hr][/hr]
 [h2]Is this mod compatible with X?[/h2]
