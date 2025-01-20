@@ -118,7 +118,7 @@
     </Price>
     <Deconstruct time="10">
       <Item identifier="aluminium"/>
-      <!-- <Item identifier="c4block" mincondition="0.95"/> --> <!-- Removed; gives sodium instead, like the explosive coilgun ammo /> -->
+      <!-- <Item identifier="c4block" mincondition="0.95"/> | Removed; gives sodium instead, like the explosive coilgun ammo -->
       <!-- new mats -->
       <Item identifier="plastic" mincondition="0.90"/>
       <Item identifier="sodium" mincondition="0.90"/>
