@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Override>
+<!-- Coilgun Ammunition Box (Blanks) -->
+  <Item name="" identifier="coilgunammobox_blanks" nameidentifier="coilgunammobox" variantof="coilgunammobox" hideinmenus="true">
+    <PreferredContainer primary="coilgunammoloader" spawnprobability="0" />
+    <PreferredContainer spawnprobability="0" />
+    <PreferredContainer spawnprobability="0.01" />
+    <PreferredContainer spawnprobability="0" />
+    <Price sold="false" />
+    <!-- Removed the "Deconstruct" tag; this allows the blanks to adopt the tag from the normal box, which has the changes -->
+    <Fabricate />
+    <Fabricate />
+    <ItemContainer>
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <SpawnItem identifiers="coilgunbolt_blank" spawnposition="ThisInventory" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="This" condition="-0.5" disabledeltatime="true">
+        <RequiredItem items="coilgunbolt_blank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="This">
+        <Conditional health="lte 90" />
+        <Sound file="Content/Items/Weapons/honk.ogg" type="OnUse" range="1000" />
+      </StatusEffect>
+      <Containable items="coilgunbolt_blank" />
+    </ItemContainer>
+  </Item>
+</Override>
