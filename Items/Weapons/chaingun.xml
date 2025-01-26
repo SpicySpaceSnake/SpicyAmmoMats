@@ -30,7 +30,7 @@
       <RequiredItem tag="munition_core" amount="3" description="fabricationdescription.munition_core" />
       <RequiredItem tag="ammobox" mincondition="0.0" maxcondition="0.1" usecondition="false" description="fabricationdescription.ammoboxrecycle" header="fabricationheader.ammoboxrecycle" defaultitem="chaingunammobox" />
     </Fabricate>
-    <Sprite texture="Content/Items/Containers/containers.png" depth="0.54" sourcerect="680,687,95,78" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Containers/containers.png" depth="0.54" sourcerect="680,687,95,78" origin="0.5,0.5"/> <!-- sprite change; replaced "Content" with "%ModDir%" -->
     <Body width="90" height="72" density="50" />
     <Holdable canbecombined="true" removeoncombined="false" slots="RightHand,LeftHand" holdpos="0,-30" handle1="0,-30" aimable="false" msg="ItemMsgPickUpSelect">
       <StatValue stattype="MovementSpeed" value="-0.2" />
@@ -44,6 +44,10 @@
       </StatusEffect>
       <Containable items="chaingunbolt" />
     </ItemContainer>
+    <!-- crafting quality -->
+    <Quality>
+      <QualityStat stattype="Condition" value="0.1"/>
+    </Quality>
   </Item>
 
 <!-- Shredder Chaingun Ammunition Box -->
@@ -77,7 +81,7 @@
       <RequiredItem tag="advmunition_core" amount="3" description="fabricationdescription.advmunition_core" />
       <RequiredItem tag="ammobox" mincondition="0.0" maxcondition="0.1" usecondition="false" description="fabricationdescription.ammoboxrecycle" header="fabricationheader.ammoboxrecycle" defaultitem="chaingunammoboxshredder" />
     </Fabricate>
-    <Sprite texture="Content/Items/Containers/containers.png" depth="0.54" sourcerect="747,602,95,78" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Containers/containers.png" depth="0.54" sourcerect="747,602,95,78" origin="0.5,0.5"/> <!-- sprite change; replaced "Content" with "%ModDir%" -->
     <Body width="90" height="72" density="30" />
     <Holdable canbecombined="true" removeoncombined="false" slots="RightHand,LeftHand" holdpos="0,-30" handle1="0,-30" aimable="false" msg="ItemMsgPickUpSelect">
       <StatValue stattype="MovementSpeed" value="-0.2" />
@@ -91,6 +95,10 @@
       </StatusEffect>
       <Containable items="chaingunboltshredder" />
     </ItemContainer>
+    <!-- crafting quality -->
+    <Quality>
+      <QualityStat stattype="Condition" value="0.1"/>
+    </Quality>
   </Item>
 
 <!-- Physicorium Chaingun Ammunition Box -->
@@ -124,7 +132,7 @@
       <RequiredItem tag="advmunition_core" amount="3" description="fabricationdescription.advmunition_core" />
       <RequiredItem tag="ammobox" mincondition="0.0" maxcondition="0.1" usecondition="false" description="fabricationdescription.ammoboxrecycle" header="fabricationheader.ammoboxrecycle" defaultitem="chaingunammoboxphysicorium" />
     </Fabricate>
-    <Sprite texture="Content/Items/Containers/containers.png" depth="0.54" sourcerect="800,687,95,78" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Containers/containers.png" depth="0.54" sourcerect="800,687,95,78" origin="0.5,0.5"/> <!-- sprite change; replaced "Content" with "%ModDir%" -->
     <Body width="90" height="72" density="30" />
     <Holdable canbecombined="true" removeoncombined="false" slots="RightHand,LeftHand" holdpos="0,-30" handle1="0,-30" aimable="false" msg="ItemMsgPickUpSelect">
       <StatValue stattype="MovementSpeed" value="-0.2" />
@@ -138,5 +146,9 @@
       </StatusEffect>
       <Containable items="chaingunboltphysicorium" />
     </ItemContainer>
+    <!-- crafting quality -->
+    <Quality>
+      <QualityStat stattype="Condition" value="0.1"/>
+    </Quality>
   </Item>
 </Override>

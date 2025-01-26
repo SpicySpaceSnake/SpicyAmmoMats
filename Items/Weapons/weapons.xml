@@ -46,6 +46,10 @@
     </ItemContainer>
     <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
+    <!-- crafting quality -->
+    <Quality>
+      <QualityStat stattype="Condition" value="0.1"/>
+    </Quality>
   </Item>
 
 <!-- Depleted Fuel SMG Magazine -->
@@ -85,6 +89,10 @@
         <SpawnItem identifiers="smgrounddepletedfuel" spawnposition="ThisInventory" />
       </StatusEffect>
     </ItemContainer>
+    <!-- crafting quality -->
+    <Quality>
+      <QualityStat stattype="Condition" value="0.1"/>
+    </Quality>
   </Item>
 
 <!-- HMG Magazine -->
@@ -130,6 +138,10 @@
       </StatusEffect>
     </ItemContainer>
     <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
+    <!-- crafting quality -->
+    <Quality>
+      <QualityStat stattype="Condition" value="0.1"/>
+    </Quality>
   </Item>
 
 <!-- Assault Rifle Magazine -->
@@ -176,5 +188,9 @@
       </StatusEffect>
     </ItemContainer>
     <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
+    <!-- crafting quality -->
+    <Quality>
+      <QualityStat stattype="Condition" value="0.1"/>
+    </Quality>
   </Item>
 </Override>

@@ -28,7 +28,7 @@
       <RequiredItem identifier="alienblood" />
       <RequiredItem tag="ammobox" mincondition="0.0" maxcondition="0.1" usecondition="false" description="fabricationdescription.ammoboxrecycle" header="fabricationheader.ammoboxrecycle" defaultitem="pulselaserammobox" />
     </Fabricate>
-    <Sprite texture="Content/Items/Containers/containers.png" depth="0.54" sourcerect="560,687,95,78" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Containers/containers.png" depth="0.54" sourcerect="560,687,95,78" origin="0.5,0.5"/> <!-- sprite change; replaced "Content" with "%ModDir%" -->
     <Body width="90" height="72" density="30" />
     <Holdable canbecombined="true" removeoncombined="false" slots="RightHand,LeftHand" holdpos="0,-30" handle1="0,-30" aimable="false" msg="ItemMsgPickUpSelect">
       <StatValue stattype="MovementSpeed" value="-0.2" />
@@ -42,6 +42,10 @@
       </StatusEffect>
       <Containable items="pulselaserbolt" />
     </ItemContainer>
+    <!-- crafting quality -->
+    <Quality>
+      <QualityStat stattype="Condition" value="0.1"/>
+    </Quality>
   </Item>
 
 <!-- Pulse Tri-Laser Fuel Box -->
@@ -71,7 +75,7 @@
       <RequiredItem identifier="alienblood" />
       <RequiredItem tag="ammobox" mincondition="0.0" maxcondition="0.1" usecondition="false" description="fabricationdescription.ammoboxrecycle" header="fabricationheader.ammoboxrecycle" defaultitem="pulselaserammoboxtrilaser" />
     </Fabricate>
-    <Sprite texture="Content/Items/Containers/containers.png" depth="0.54" sourcerect="918,687,95,78" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Containers/containers.png" depth="0.54" sourcerect="918,687,95,78" origin="0.5,0.5"/> <!-- sprite change; replaced "Content" with "%ModDir%" -->
     <Body width="90" height="72" density="30" />
     <Holdable canbecombined="true" removeoncombined="false" slots="RightHand,LeftHand" holdpos="0,-30" handle1="0,-30" aimable="false" msg="ItemMsgPickUpSelect">
       <StatValue stattype="MovementSpeed" value="-0.2" />
@@ -85,5 +89,9 @@
       </StatusEffect>
       <Containable items="pulselaserbolttrilaser" />
     </ItemContainer>
+    <!-- crafting quality -->
+    <Quality>
+      <QualityStat stattype="Condition" value="0.1"/>
+    </Quality>
   </Item>
 </Override>
