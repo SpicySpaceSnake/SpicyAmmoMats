@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Spicetrauma - Enriched Ammo Deconstruction" modversion="1.0.1" corepackage="False" steamworkshopid="3410901374" gameversion="1.7.7.0">
+<contentpackage name="Spicetrauma - Immersive Ammunition" modversion="1.1.0" corepackage="False" steamworkshopid="3410901374" gameversion="1.7.7.0">
   <Item file="%ModDir%/Items/Weapons/coilgun.xml"/>
   <Item file="%ModDir%/Items/Weapons/chaingun.xml"/>
   <Item file="%ModDir%/Items/Weapons/pulselaser.xml"/>
