@@ -1,2 +1,17 @@
-[h1]1.0.1: Hash Hotfix[/h1]
-Hotfix for broken hash.
+[h1]1.1.0: Immersion[/h1]
+The mod is now officially a successor to Immersive Ammunition Boxes, and has adopted its features! Also has some extra stuffs.
+[quote]
+[h2]New Additions[/h2]
+[list]
+[*]Ammo boxes and gun mags are now affected by crafting quality
+[*]Ammo box sprites no longer have their right side sheared off, and have recieved a handful of minor 
+[*]The Tri-Laser Fuel and Gravity Flak box sprites now use the 'alien' case style (the one Physicorium ammos use)
+[/list]
+[/quote]
+[quote]
+[h2]Changes[/h2]
+[list]
+[*]Mod name change!
+[*]Coilgun Ammo (Blanks) now properly adopts the 'Deconstruct' tag from the normal Coilgun Ammo; this helps prevent cheesing its disguise via both mod name and deconstruction yield
+[/list]
+[/quote]
