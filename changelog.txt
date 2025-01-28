@@ -4,14 +4,16 @@ The mod is now officially a successor to Immersive Ammunition Boxes, and has ado
 [h2]New Additions[/h2]
 [list]
 [*]Ammo boxes and gun mags are now affected by crafting quality
-[*]Ammo box sprites no longer have their right side sheared off, and have recieved a handful of minor 
+[*]Ammo box sprites no longer have their right side sheared off, and have recieved a handful of minor cleanup edits
 [*]The Tri-Laser Fuel and Gravity Flak box sprites now use the 'alien' case style (the one Physicorium ammos use)
+[*]The 'icon' part of all coilgun ammo box sprites (except the Harpoon) have been horizontally flipped to match with other ammo boxes
 [/list]
 [/quote]
 [quote]
 [h2]Changes[/h2]
 [list]
 [*]Mod name change!
+[*]The thumbnail has also changed
 [*]Coilgun Ammo (Blanks) now properly adopts the 'Deconstruct' tag from the normal Coilgun Ammo; this helps prevent cheesing its disguise via both mod name and deconstruction yield
 [/list]
 [/quote]
