@@ -13,7 +13,7 @@ As of 1.1.0, the mod also incorporates the changes from Immersive Ammo Boxes: bo
 Check out the [url=https://github.com/SpicySpaceSnake/SpicyAmmoMats]GitHub repo[/url] to sift through its files and customize your features, or even to contribute to it yourself.
 
 [h3]Change Specifics[/h3]
-I've made a breakdown of the deconstrucion materials and thresholds in [url=https://steamcommunity.com/workshop/filedetails/discussion/3410901374/677329263114902600]one of this mod's Discussions[/url], as well as a complete list of how quality affects the number of shots per mag/box using [url=]a table on Google Sheets[/url].
+I've made a breakdown of the deconstrucion materials and thresholds in [url=https://steamcommunity.com/workshop/filedetails/discussion/3410901374/677329263114902600]one of this mod's Discussions[/url], as well as a complete list of how quality affects the number of shots per mag/box using [url=https://docs.google.com/spreadsheets/d/16f5hblI8hwDFCwQZWO0pRVdLvZQbS1pdVFyBT1Ec7og/edit?usp=sharing]a table on Google Sheets[/url].
 
 [hr][/hr]
 [h2]Is this mod compatible with X?[/h2]
