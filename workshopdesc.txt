@@ -20,7 +20,7 @@ I've made a breakdown of the deconstrucion materials and thresholds in [url=http
 This is a relatively unintrusive mod that shouldn't break anything by itself. It can be added or removed during a campaign at any time without issue.
 If a mod edits any of the above changed items, its changes will be overridden if this mod loads after (is above) it; likewise, this mod's changes will be overridden if it loads before (is below) the other mod. If you'd like a compatibility patch, ask for it!
 
-Compatibility patches for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2764968387]Enhanced Armaments[/url], [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3028141718]Combat Overhaul Legacy[/url], and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2784626867]Vanilla Weapons Enhanced[/url] are in the works.
+Compatibility patches for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2764968387]Enhanced Armaments[/url], [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3028141718]Combat Overhaul Legacy[/url], and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2784626867]Vanilla Weapons Enhanced[/url] are in the works. Exact breakage is currently untested, but shouldn't be too bad.
 
 [b]Found a bug? Leave a comment or start a discussion![/b]
 
