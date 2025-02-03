@@ -42,11 +42,11 @@ The core mod will only recieve updates when needed, as there's not much more to 
 [h2]Credits go to[/h2]
 [list]
 [*][b]SpicySpaceSnake[/b] ([url=https://spicyspacesnake.carrd.co/]that's me![/url]): main programmer, edited ammo box sprite fixes
-[*][b][url=https://steamcommunity.com/id/big_m_/myworkshopfiles/?appid=602960]Marc / [noparse]_]|M|[_[/noparse][/url][/b]: crafting quality code, original ammo box sprite fixes
+[*][b][url=https://steamcommunity.com/id/big_m_/myworkshopfiles/?appid=602960]Marc / "M"[/url][/b]: crafting quality code, original ammo box sprite fixes
 [/list]
 [h3]And a special thanks to[/h3]
 [list]
-[*][b]Marc / [noparse]_]|M|[_[/noparse][/b], for creating the original Immersive Ammo Boxes, and allowing and endorsing this modernized version of it
+[*][b]Marc / "M"[/b], for creating the original Immersive Ammo Boxes, and allowing and endorsing this modernized version of it
 [*][b]Kira[/b], for buying me Barotrauma and getting me into it in the first place
 [*][b]My partners[/b], for being a bunch of absolutely amazing people
 
