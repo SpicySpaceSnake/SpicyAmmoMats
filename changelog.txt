@@ -1,19 +1,24 @@
-[h1]1.1.0: Immersion[/h1]
-The mod is now officially a successor to Immersive Ammunition Boxes, and has adopted its features! Also has some extra stuffs.
+[h1]1.2.0: Flavorful Descriptions[/h1]
+Carries a handful of changes to mag/ammo box descriptions to make them more consistent and descriptive, and fixes an issue preventing the crafting of masterwork-quality ammo.
 [quote]
 [h2]New Additions[/h2]
 [list]
-[*]Ammo boxes and gun mags are now affected by crafting quality
-[*]Ammo box sprites no longer have their right side sheared off, and have recieved a handful of minor cleanup edits
-[*]The Tri-Laser Fuel and Gravity Flak box sprites now use the 'alien' case style (the one Physicorium ammos use)
-[*]The 'icon' part of all coilgun ammo box sprites (except the Harpoon) have been horizontally flipped to match with other ammo boxes
+[*]Altered descriptions for the following items:
+[list]
+[*]HMG Magazine
+[*]Assault Rifle Magazine
+[*]Physicorium Coilgun Ammunition Box
+[*]Chaingun Ammunition Box
+[*]Shredder Chaingun Ammunition Box
+[*]Physicorium Flak Shells Box
+[*]Gravity Flak Shells Box
+[*]Gravity Railgun Shell
+[/list]
 [/list]
 [/quote]
 [quote]
 [h2]Changes[/h2]
 [list]
-[*]Mod name change!
-[*]The thumbnail has also changed
-[*]Coilgun Ammo (Blanks) now properly adopts the 'Deconstruct' tag from the normal Coilgun Ammo; this helps prevent cheesing its disguise via both mod name and deconstruction yield
+[*]Fixed an issue preventing weapon quality-related talents from recognizing ammo boxes, likely introduced by a game update. Sorry for taking this long to address it!
 [/list]
 [/quote]
