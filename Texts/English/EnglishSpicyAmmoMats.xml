@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="English" nowhitespace="false" translatedname="English">
+  <Override>
+    <!-- handheld mag descs made consistent with SMG mag desc, "A magazine for .45 caliber SMG rounds." -->
+    <!-- HMG Magazine
+    A magazine of 5.56mm rounds for the HMG -->
+    <entitydescription.hmgmagazine>A magazine for 5.56mm HMG rounds.</entitydescription.hmgmagazine>
+    <!-- Assault Rifle Magazine
+    A magazine designed for holding 6.8mm cartridges. -->
+    <entitydescription.assaultriflemagazine>A magazine for 6.8mm AR cartridges.</entitydescription.assaultriflemagazine>
+    
+    <!-- Physicorium Coilgun Ammunition Box
+    Coilgun ammunition made of alien material. -->
+    <entitydescription.physicoriumammobox>A heavy box of coilgun ammo, utilizing Physicorium as its main material. The best punch and stopping power you can stick in a coilgun shell.</entitydescription.physicoriumammobox>
+
+    <!-- Chaingun Ammunition Box
+    A heavy box of ammo for the Chaingun. -->
+    <!-- added more details for consistency with other basic ammo types -->
+    <entitydescription.chaingunammobox>A heavy box of ammo for the chaingun. Inexpensive and good for spray-and-pray tactics.</entitydescription.chaingunammobox>
+    <!-- Shredder Chaingun Ammunition Box
+    A heavy box of ammunition for the chaingun. Designed to shred through flesh and armor of any enemy. -->
+    <entitydescription.chaingunammoboxshredder>A heavy box of ammunition for the chaingun. Easily shreds through flesh and armor alike, but is less compact and more material-hungry.</entitydescription.chaingunammoboxshredder>
+
+    <!-- Physicorium Flak Shells Box
+    A backbreakingly heavy box of ammo for the flak cannon, utilizing Physicorium as its main material. -->
+    <entitydescription.flakcannonammoboxphysicorium>A backbreakingly heavy box of ammo for the flak cannon, utilizing Physicorium as its main material. Moderate spread, exceptional raw damage.</entitydescription.flakcannonammoboxphysicorium>
+    <!-- Gravity Flak Shells Box
+    A heavy box of ammo for the flak cannon, loaded with alien dementonite-based gravity sphere technology. -->
+    <entitydescription.flakcannonammoboxgravity>A heavy box of dementonite-based ammo for the flak cannon, loaded with contact-activated shells capable of generating a short-lived singularity.</entitydescription.flakcannonammoboxgravity>
+
+    <!-- Gravity Railgun Shell
+    For firing from a railgun. Alien dementonite-based gravity sphere technology pulls anything nearby towards the impact. -->
+    <entitydescription.gravityshell>A dementonite-based shell for the railgun, capable of generating a short-lived singularity on contact.</entitydescription.gravityshell>
+  </Override>
+</infotexts>

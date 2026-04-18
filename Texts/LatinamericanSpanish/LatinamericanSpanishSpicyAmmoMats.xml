@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Latinamerican Spanish" nowhitespace="false" translatedname="Español Latinoamericano">
+  <Override>
+    <!-- HMG Magazine -->
+    <entitydescription.hmgmagazine>Un cargador de 5,56 mm balas de ametralladora pesada.</entitydescription.hmgmagazine>
+    <!-- Assault Rifle Magazine -->
+    <entitydescription.assaultriflemagazine>Un cargador de 6,8 mm cartuchos de fusil de asalto.</entitydescription.assaultriflemagazine>
+    
+    <!-- Physicorium Coilgun Ammunition Box -->
+    <entitydescription.physicoriumammobox>Una caja pesada de munición para cañones de bobina, utilizando Physicorium como material principal. El mejor daño y poder de detención que el arma puede tener.</entitydescription.physicoriumammobox>
+
+    <!-- Chaingun Ammunition Box -->
+    <entitydescription.chaingunammobox>Una caja pesada de munición para ametralladora de cadena. Barata y adecuada para disparo indiscriminado.</entitydescription.chaingunammobox>
+    <!-- Shredder Chaingun Ammunition Box -->
+    <entitydescription.chaingunammoboxshredder>Una caja pesada de munición para ametralladora rotativa. Desgarra carne y armadura con facilidad, pero es menos compacta y consume más material.</entitydescription.chaingunammoboxshredder>
+
+    <!-- Physicorium Flak Shells Box -->
+    <entitydescription.flakcannonammoboxphysicorium>Una caja de peso extenuante de munición para cañón de impacto, utilizando Physicorium como material principal. Dispersión moderada, daño bruto excepcional.</entitydescription.flakcannonammoboxphysicorium>
+    <!-- Gravity Flak Shells Box -->
+    <entitydescription.flakcannonammoboxgravity>Una caja pesada de munición a base de dementonita para cañón de impacto, conteniendo balas activada por contacto capaces de generar una singularidad de vida corta.</entitydescription.flakcannonammoboxgravity>
+
+    <!-- Gravity Railgun Shell -->
+    <entitydescription.gravityshell>Una bala a base de dementonita para cañón de riel, capaz de generar una singularidad de vida corta en contacto.</entitydescription.gravityshell>
+  </Override>
+</infotexts>

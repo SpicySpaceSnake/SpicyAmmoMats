@@ -7,7 +7,7 @@
   <Item file="%ModDir%/Items/Weapons/flakcannon.xml" />
   <Item file="%ModDir%/Items/Weapons/weapons.xml" />
   <Text file="%ModDir%/Texts/English/EnglishSpicyAmmoMats.xml" />
+  <Text file="%ModDir%/Texts/LatinamericanSpanish/LatinamericanSpanishSpicyAmmoMats.xml" />
   <Talents file="%ModDir%/Talents/engineer.xml" />
   <Talents file="%ModDir%/Talents/security.xml" />
-  <!-- <Text file="%ModDir%/Texts/LatinamericanSpanish/LatinamericanSpanishSpicyAmmoMats.xml" /> -->
 </contentpackage>
