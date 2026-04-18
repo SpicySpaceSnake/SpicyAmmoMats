@@ -22,12 +22,12 @@ If a mod edits any of the above changed items, its changes will be overridden if
 
 [h3]Quick FAQ[/h3]
 [list]
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3089776991]Immersive Ammunition Boxes[/url]: the original mod and this mod should be treated as mutually exclusive, but shouldn't break each other.
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2764968387]Enhanced Armaments[/url]: edits handheld gun mags and overrides language files; whichever mod is higher in the mod list will take priority.
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3430611369]Ozone Weapons Pack[/url]: compatible, but not cross-supported... yet.
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3036314567]THG Armory - 'Vanilla' Turret Pack[/url]: compatible, but not cross-supported... yet.
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3028141718]Combat Overhaul Legacy[/url]: edits many weapon and language fields; whichever mod is higher in the mod list will take priority.
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2954637344]Vanilla Weapons Enhanced (Draconis)[/url]: edits many weapon and language fields; whichever mod is higher in the mod list will take priority.
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3089776991]Immersive Ammunition Boxes[/url]: The original mod and the Spicetrauma version should be treated as mutually exclusive; whichever mod is higher in the mod list will take priority.
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2764968387]Enhanced Armaments[/url]: Edits handheld gun mags and overrides language files; whichever mod is higher in the mod list will take priority.
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3430611369]Ozone Weapons Pack[/url]: Compatible, but not cross-supported... yet.
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3036314567]THG Armory - 'Vanilla' Turret Pack[/url]: Compatible, but not cross-supported... yet.
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3028141718]Combat Overhaul Legacy[/url]: Edits many weapon and language fields; whichever mod is higher in the mod list will take priority.
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2954637344]Vanilla Weapons Enhanced (Draconis)[/url]: Edits many weapon and language fields; whichever mod is higher in the mod list will take priority.
 [/list]
 
 [b]Found a bug? Leave a comment or start a discussion![/b]
