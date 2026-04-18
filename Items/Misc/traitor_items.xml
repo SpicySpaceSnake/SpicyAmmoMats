@@ -23,9 +23,5 @@
       </StatusEffect>
       <Containable items="coilgunbolt_blank" />
     </ItemContainer>
-    <!-- crafting quality -->
-    <Quality>
-      <QualityStat stattype="Condition" value="0.1" />
-    </Quality>
   </Item>
 </Override>
